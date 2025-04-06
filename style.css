@@ -32,7 +32,7 @@ header {
     background-color: var(--vermelho);
     color: var(--branco);
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .subtitulo {
@@ -72,10 +72,10 @@ ul {
 }
 
 ul li {
-    background-color: var(--cinza);
+    background-color: var(--cinza-claro);
     padding: 0.8rem 1rem;
     margin-bottom: 0.8rem;
-    border-left: 6px solid var(--cinza-claro);
+    border-left: 6px solid var(--cinza);
     border-radius: 8px;
     font-weight: bold;
 }
