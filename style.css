@@ -57,17 +57,16 @@ li {
     display: inline-block;
     margin-top: 1rem;
     padding: 0.75rem 1.5rem;
-    background-color: var(--verde);
+    background-color: #4CAF50; /* verde visível SEM hover */
     color: white;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .botao-compartilhar:hover {
-    background-color: #2e7d32;
+    background-color: #388E3C; /* verde mais escuro no hover */
     transform: scale(1.03);
 }
 
