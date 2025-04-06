@@ -59,8 +59,8 @@ section p {
 }
 
 section img {
-    width: 200%;
-    max-height: 200px;
+    width: 100%;
+    max-height: 400px;
     object-fit: cover;
     border-radius: 10px;
     margin-top: 1rem;
