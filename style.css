@@ -57,7 +57,7 @@ li {
     display: inline-block;
     margin-top: 1rem;
     padding: 0.75rem 1.5rem;
-    background-color: #4CAF50;
+    background-color: #4CAF50; /* verde visível SEM hover */
     color: white;
     text-decoration: none;
     border-radius: 5px;
