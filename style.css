@@ -80,19 +80,20 @@ ul li {
     font-weight: bold;
 }
 
-.botao {
+.botao-compartilhar {
     display: inline-block;
-    padding: 0.8rem 2rem;
-    background-color: var(--verde);
-    color: var(--branco);
-    border-radius: 30px;
+    padding: 12px 20px;
+    background-color: #25D366;
+    color: white;
     text-decoration: none;
+    border-radius: 8px;
     font-weight: bold;
     transition: background-color 0.3s ease;
+    margin-top: 20px;
 }
 
-.botao:hover {
-    background-color: #388e3c;
+.botao-compartilhar:hover {
+    background-color: #1ebe5b;
 }
 
 footer {
