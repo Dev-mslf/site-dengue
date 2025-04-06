@@ -6,6 +6,7 @@
     --cinza-claro: #f9f9f9;
     --preto: #222;
     --branco: #fff;
+    --cinza: #DCDCDC
 }
 
 * {
@@ -71,10 +72,10 @@ ul {
 }
 
 ul li {
-    background-color: var(--verde-claro);
+    background-color: var(--cinza);
     padding: 0.8rem 1rem;
     margin-bottom: 0.8rem;
-    border-left: 6px solid var(--verde);
+    border-left: 6px solid var(--cinza-claro);
     border-radius: 8px;
     font-weight: bold;
 }
