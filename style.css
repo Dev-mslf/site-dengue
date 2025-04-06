@@ -60,7 +60,7 @@ section p {
 
 section img {
     width: 100%;
-    max-height: 300px;
+    max-height: 600px;
     object-fit: cover;
     border-radius: 10px;
     margin-top: 1rem;
