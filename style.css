@@ -86,15 +86,32 @@ ul li {
     background-color: var(--verde);
     color: white;
     text-decoration: none;
+    border: none;
+    /* remove a borda */
+    outline: none;
+    /* remove a borda ao focar */
     border-radius: 8px;
     font-weight: bold;
     transition: background-color 0.3s ease;
     margin-top: 20px;
+    cursor: pointer;
+    /* deixa o cursor de mãozinha */
 }
 
 .botao-compartilhar:hover {
     background-color: #1ebe5b;
 }
+
+.quiz label {
+    display: block;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.quiz input[type="radio"] {
+    margin-right: 10px;
+}
+
 
 footer {
     background-color: var(--verde-claro);
